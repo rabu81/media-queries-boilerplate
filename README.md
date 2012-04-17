@@ -7,6 +7,7 @@ QA
 --
 
 Current testet on the following devices:
+
 * iOS: iPad 2 (Non-Retina)
 * iOS: iPod Touch (Retina)
 * Android: HTC Sensation (HDPI)
