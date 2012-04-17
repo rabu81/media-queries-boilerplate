@@ -1,0 +1,85 @@
+<!doctype html>
+<head>
+	<meta charset="utf-8">
+	<title>Media Queries Boilerplate</title>
+	<meta name="description" content="HTML5/CSS3 Media Queries Boilerplate, optimized the perfect starting point, for your cross mobile, tablet and computer website or webapp">
+	<meta name="viewport" content="width=device-width">
+	
+	<!-- ipad -->
+	<link rel="stylesheet" type="text/css" media="only screen and (max-device-height: 1024px) and (min-device-height: 961px) and (max-device-width: 768px) and (min-device-width: 767px)" href="tablet.css" />
+	<!-- ipad: landscape -->
+	<link rel="stylesheet" type="text/css" media="only screen and (orientation: landscape) and (max-device-height: 1024px) and (min-device-height: 961px) and (max-device-width: 768px) and (min-device-width: 767px)" href="tablet-landscape.css" />
+	<!-- ipad: portrait -->
+	<link rel="stylesheet" type="text/css" media="only screen and (orientation: portrait) and (max-device-height: 1024px) and (min-device-height: 961px) and (max-device-width: 768px) and (min-device-width: 767px)" href="tablet-portrait.css" />
+	
+	<!-- computer + laptop -->
+	<link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 1025px)" href="computer.css" />
+	
+	<!-- mobile (ios + android) -->
+	<link rel="stylesheet" type="text/css" media="only screen and (max-device-height: 960px)" href="mobile.css" />
+	<!-- mobile (ios + android): landscape -->
+	<link rel="stylesheet" type="text/css" media="only screen and (orientation: landscape) and (max-device-height: 960px)" href="mobile-landscape.css" />
+	<!-- mobile (ios + android): portrait -->
+	<link rel="stylesheet" type="text/css" media="only screen and (orientation: portrait) and (max-device-height: 960px)" href="mobile-portrait.css" />
+
+	<!-- ios retina + android xhdpi -->
+	<link rel="stylesheet" type="text/css" media="only screen and (-webkit-device-pixel-ratio:2)" href="ios-retina_android-xhdpi.css" />
+	<!-- android hdpi -->
+	<link rel="stylesheet" type="text/css" media="only screen and (-webkit-device-pixel-ratio:1.5)" href="android-hdpi.css" />
+	<!-- ios non-retina + android mdpi -->
+	<link rel="stylesheet" type="text/css" media="only screen and (-webkit-device-pixel-ratio:1.0) and (max-device-height: 1024px)" href="ios-non-retina_android-mdpi.css" />
+	<!-- android ldpi -->
+	<link rel="stylesheet" type="text/css" media="only screen and (-webkit-device-pixel-ratio:.75)" href="android-ldpi.css" />
+
+</head>
+
+<body>
+
+	<div id="page">
+		
+		<h1>Media Queries Boilerplate</h1>
+		<p>This is a HTML5/CSS3 Media Queries Boilerplate, optimized the perfect starting point, for your cross mobile, tablet and computer website or webapp.</p>
+		
+		<hr />
+		
+		<h2>Device Type</h2>
+		<ul>
+			<li class="computer">I'm a computer/laptop</li>
+			<li class="tablet">I'm a tablet</li>
+			<li class="mobile">I'm a mobile</li>
+		</ul>
+		
+		<h3>Device Orientation</h3>
+		<ul>
+			<li class="landscape-tablet">I'm currently a tablet in landscape mode</li>
+			<li class="landscape-mobile">I'm currently a mobile in landscape mode</li>
+			<li class="portrait-tablet">I'm currently a tablet in portrait mode</li>
+			<li class="portrait-mobile">I'm currently a mobile in portrait mode</li>
+		</ul>
+		
+		<h4>Pixel Density (DPI/PPI)</h4>
+		<ul>
+			<li class="ldpi">I'm an Android LDPI (0.75x)</li>
+			<li class="mdpi_non-retina">I'm an Android MDPI or an iOS Non-Retina (1x)</li>
+			<li class="hdpi">I'm an Android HDPI (1.5x)</li>
+			<li class="xhdpi_retina">I'm an Android XHDPI or an iOS Retina (2x)</li>
+		</ul>
+		
+		<hr />
+		
+		<h5>Reference links</h5>
+		<ul>
+			<li><a href="http://www.w3.org/TR/css3-mediaqueries/" title="Media Queries - W3C Candidate Recommendation 27 July 2010">Media Queries - W3C Candidate Recommendation 27 July 2010</a></li>
+			<li><a href="http://developer.android.com/resources/dashboard/screens.html" title="Android: Screen Sizes and Densities stats.">Android: Screen Sizes and Densities stats.</a></li>
+			<li><a href="http://developer.android.com/guide/practices/screens_support.html" title="Android: Supporting Multiple Screens">Android: Supporting Multiple Screens</a></li>
+			<li><a href="http://developer.android.com/guide/webapps/targeting.html" title="Android: Targeting Screens from Web Apps">Android: Targeting Screens from Web Apps</a></li>
+			<li><a href="http://developer.apple.com/library/ios/#technotes/tn2010/tn2262/_index.html#//apple_ref/doc/uid/DTS40009577" title="iOS: Preparing Your Web Content for iPad">iOS: Preparing Your Web Content for iPad</a></li>
+			<li><a href="http://developer.apple.com/library/ios/#documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html#//apple_ref/doc/uid/TP40006509-SW1" title="iOS: Configuring the Viewport">iOS: Configuring the Viewport</a></li>
+			<li><a href="http://developer.apple.com/library/ios/#documentation/AppleApplications/Reference/SafariWebContent/OptimizingforSafarioniPhone/OptimizingforSafarioniPhone.html#//apple_ref/doc/uid/TP40006517-SW1" title="iOS: Optimizing Web Content">iOS: Optimizing Web Content</a></li>
+			<li><a href="http://developer.apple.com/library/ios/#documentation/AppleApplications/Reference/SafariWebContent/CreatingContentforSafarioniPhone/CreatingContentforSafarioniPhone.html#//apple_ref/doc/uid/TP40006482-SW1" title="iOS: Creating Compatible Web Content">iOS: Creating Compatible Web Content</a></li>
+		</ul>
+		
+	</div>
+	
+</body>
+</html>
